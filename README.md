@@ -19,7 +19,7 @@ An unofficial, open source database of every card in the Gentle Mates Trading Ca
 
 The site follows `main`. Releases are dated snapshots: to pin one, download `https://github.com/TheoBIET/gentlemates-tcg/releases/download/<version>/data.zip`.
 
-Card files, images, and logos keep their repository paths under `collections/`. Each card has an `id` (the slug of its name), a `number`, and an `image` path, each collection a `logo` path, both relative to the site root or the zip. Card text is in French, as printed. See [`schemas/`](schemas/) for every field.
+Card files, images, and logos keep their repository paths under `collections/`. Each card has an `id` (the slug of its name, shared by cards with the same name such as `047` and `048`: use the collection and `number` to tell cards apart), a `number`, and an `image` path, each collection a `logo` path, both relative to the site root or the zip. Card text is in French, as printed. See [`schemas/`](schemas/) for every field.
 
 ## Layout
 
