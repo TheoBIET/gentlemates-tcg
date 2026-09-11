@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "GP Explorer III",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Engagez 2 Essences pour piocher 3 cartes."
+        }
+    ],
+    "resilience": "Désengagez 2 Essences.",
+    "quote": "À jamais les 5es.",
+    "illustrator": "Rexpo"
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Pitchounes",
+    "type": "player",
+    "essence": "orange",
+    "rarity": "rare",
+    "stars": 3,
+    "defense": 120,
+    "attacks": [
+        {
+            "name": "Eclosion",
+            "cost": {
+                "orange": 2
+            },
+            "damage": 130
+        }
+    ],
+    "ability": {
+        "keyword": "counterattack",
+        "icon": "trigger",
+        "text": "Lorsqu'il est vaincu, vous pouvez déclencher une des attaques de ce Joueur pour un coût diminué de 1, en ciblant le Joueur attaquant."
+    },
+    "quote": "Il commence à pleuvoir",
+    "illustrator": "Tan Zhi Hui"
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Instalock",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 70,
+    "attacks": [
+        {
+            "name": "Pré-Clic",
+            "cost": {
+                "neutral": 2
+            },
+            "damage": 110
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Vous pouvez engager ce Joueur pour bench un Joueur adverse."
+    },
+    "quote": "5 duellistes... vraiment ?",
+    "illustrator": "Edward Chee"
+}

@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Essence Rose",
+    "type": "essence",
+    "essence": "pink",
+    "rarity": "essence",
+    "effects": [
+        {
+            "text": "Vous pouvez engager cette Essence pour déclencher vos attaques Roses."
+        }
+    ],
+    "illustrator": "Florent Hauchard & HL"
+}

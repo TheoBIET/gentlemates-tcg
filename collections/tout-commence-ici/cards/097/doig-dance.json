@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Doig'Dance",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "La première Attaque que vous déclenchez à ce tour, coûte 1 Essence Neutre de moins."
+        }
+    ],
+    "resilience": "2 de vos Joueurs ont +20 Défense.",
+    "quote": "«Et pourtant, elle tourne»",
+    "illustrator": "Stwensz"
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Gros Bonnet",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "text": "Ce Joueur a +30 Défense."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Je vais lui offrir un code qu'il ne pourra pas refuser",
+    "illustrator": "Gadner Raph"
+}

@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Essence Violette",
+    "type": "essence",
+    "essence": "violet",
+    "rarity": "essence",
+    "effects": [
+        {
+            "text": "Vous pouvez engager cette Essence pour déclencher vos attaques Violettes."
+        }
+    ],
+    "illustrator": "Florent Hauchard & HL"
+}

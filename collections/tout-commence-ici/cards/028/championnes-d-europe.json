@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Championnes d'Europe",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "epic",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Les attaques de vos Joueurs avec Buff ont + 20 jusqu'à la fin du tour."
+        }
+    ],
+    "quote": "Elles nous craindront",
+    "illustrator": "Grace Woo"
+}

@@ -1,0 +1,28 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Namifique",
+    "type": "player",
+    "essence": "pink",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 90,
+    "attacks": [
+        {
+            "name": "Omniscience",
+            "cost": {
+                "pink": 1
+            },
+            "text": "Engagez un Joueur adverse."
+        },
+        {
+            "name": "Rotation",
+            "cost": {
+                "pink": 1,
+                "neutral": 1
+            },
+            "damage": 160
+        }
+    ],
+    "quote": "«Ça va les questions là ma chérie ? C'est duuur»",
+    "illustrator": "Edward Chee"
+}

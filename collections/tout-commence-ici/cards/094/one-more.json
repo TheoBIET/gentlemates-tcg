@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "One More",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Chaque fois que vous piochez à ce tour, vous piochez une carte de plus."
+        }
+    ],
+    "resilience": "Votre adversaire doit déclencher une attaque de plus si possible.",
+    "quote": "Présent !",
+    "illustrator": "Romain Billaud"
+}

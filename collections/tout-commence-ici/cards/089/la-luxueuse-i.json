@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "La Luxueuse I",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "text": "Ce Joueur a +10 Défense pour chaque Objet Lié à lui."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Combien !?!",
+    "illustrator": "Romain Billaud"
+}

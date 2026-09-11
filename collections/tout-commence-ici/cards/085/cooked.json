@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Cooked",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "text": "Ce Joueur a +30 Attaque."
+        }
+    ],
+    "resilience": "Ajoutez une carte Moment de votre défausse à votre main.",
+    "quote": "Ah là on est bien cuits.",
+    "illustrator": "Hugo Lucas"
+}

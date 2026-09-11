@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Pause Technique",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "epic",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Engagez un Joueur adverse sans mot-clés."
+        }
+    ],
+    "quote": "ON VEUT JOUER AU JEUUUUUU",
+    "illustrator": "Aftergani"
+}

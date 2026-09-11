@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Zéro Soucis",
+    "type": "player",
+    "essence": "violet",
+    "rarity": "common",
+    "stars": 1,
+    "defense": 90,
+    "attacks": [
+        {
+            "name": "What a Save !",
+            "cost": {
+                "violet": 1
+            },
+            "damage": 90
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "trigger",
+        "text": "Lorsque votre adversaire joue un Joueur, vous pouvez échanger la position de ce Joueur et d'un autre de vos Joueurs."
+    },
+    "quote": "Quelle belle journée",
+    "illustrator": "Liu Qian"
+}

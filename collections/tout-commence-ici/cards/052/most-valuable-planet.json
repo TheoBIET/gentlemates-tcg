@@ -1,0 +1,29 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Most Valuable Planet",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "common",
+    "stars": 1,
+    "defense": 90,
+    "attacks": [
+        {
+            "name": "Regard Sombre",
+            "cost": {
+                "mauve": 1
+            },
+            "damage": 90
+        },
+        {
+            "name": "Sourire Radieux",
+            "cost": {
+                "mauve": 1,
+                "neutral": 1
+            },
+            "damage": 150,
+            "text": "Mélangez 1 Essence Mauve dans votre Réserve."
+        }
+    ],
+    "quote": "La face cachée de Neptune",
+    "illustrator": "Edward Chee"
+}

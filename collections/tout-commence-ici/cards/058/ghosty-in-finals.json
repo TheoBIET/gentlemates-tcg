@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Ghosty in Finals",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 130,
+    "attacks": [
+        {
+            "name": "Menace Fantôme",
+            "cost": {
+                "mauve": 1,
+                "neutral": 1
+            },
+            "damage": 120
+        }
+    ],
+    "ability": {
+        "keyword": "taunt",
+        "text": "L'attaquant face à ce Joueur doit le cibler."
+    },
+    "quote": "You're so nervous",
+    "illustrator": "Rexpo"
+}

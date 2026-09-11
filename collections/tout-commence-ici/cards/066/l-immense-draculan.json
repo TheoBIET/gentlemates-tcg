@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "L'Immense Draculan",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "blue",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Défaussez 1 carte et engagez 2 Essences pour choisir une Essence adverse engagée et la mélanger dans la Réserve de son propriétaire."
+        }
+    ],
+    "resilience": "Engagez 1 Essence adverse.",
+    "quote": "On push A, B ou O+ ?",
+    "illustrator": "Sébastien Iglesias"
+}

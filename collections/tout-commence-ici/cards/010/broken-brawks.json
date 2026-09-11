@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Broken Brawks",
+    "type": "player",
+    "essence": "pink",
+    "rarity": "common",
+    "stars": 1,
+    "defense": 130,
+    "attacks": [
+        {
+            "name": "Roi du Silence",
+            "cost": {
+                "pink": 1
+            },
+            "damage": 50
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "trigger",
+        "text": "Lorsque vous récuperez un PV, engagez ce Joueur."
+    },
+    "quote": "Gamberge",
+    "illustrator": "Mélanie Baptista"
+}

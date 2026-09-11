@@ -1,0 +1,20 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "M16",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "rare",
+    "effects": [
+        {
+            "text": "Ce Joueur a +20 Attaque."
+        },
+        {
+            "icon": "trigger",
+            "text": "Lorsque votre adversaire déclare un défenseur sur l'attaque de ce Joueur, révélez la carte du dessus de votre Club. Si c'est une carte Joueur ce Joueur a +20 Attaque."
+        }
+    ],
+    "resilience": "Révélez la carte du dessus de votre Club. Si c'est une carte Joueur, jouez-la.",
+    "quote": "L'endroit parfait pour farmer du métal.",
+    "illustrator": "Alex Accorsi"
+}

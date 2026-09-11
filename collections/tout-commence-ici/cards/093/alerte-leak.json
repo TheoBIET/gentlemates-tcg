@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Alerte Leak",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Révélez vos PV."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Père Leakof, raconte nous une histoire.",
+    "illustrator": "Umeshu Lovers"
+}

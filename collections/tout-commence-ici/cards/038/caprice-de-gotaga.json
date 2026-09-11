@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Caprice de Gotaga",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "jade",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Défaussez une carte pour jouer la première carte de votre Réserve engagée."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Il a trop pris au sérieux le «muscler son jeu»",
+    "illustrator": "Umeshu Lovers"
+}

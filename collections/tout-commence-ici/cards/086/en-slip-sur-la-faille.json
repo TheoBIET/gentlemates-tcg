@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "En slip sur la Faille",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "trigger",
+            "text": "Lorsque ce Joueur est engagé, vous pouvez bench cet Objet pour le désengager. Ce Joueur ne peut plus attaquer ce tour."
+        }
+    ],
+    "resilience": "Vos Objet bench sont ajoutés à votre main jusqu'à la fin du tour.",
+    "quote": "All roads lead to the slip",
+    "illustrator": "Pema Horeau"
+}

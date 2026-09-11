@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Trauma Dump I",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "violet",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "La première fois que votre adversaire récupère un PV ce tour, désengagez un de vos Joueurs."
+        }
+    ],
+    "resilience": "Désengagez l'un de vos Joueurs.",
+    "quote": "...",
+    "illustrator": "Umeshu Lovers"
+}

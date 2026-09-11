@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Jus de bagarre",
+    "type": "object",
+    "subtype": "link",
+    "essence": "blue",
+    "rarity": "common",
+    "effects": [
+        {
+            "text": "Ce Joueur peut attaquer le Joueur adverse sur sa ligne."
+        }
+    ],
+    "resilience": "Votre adversaire défausse 1 carte Joueur.",
+    "quote": "«J'ai le droit ! C'est moi j'ai fait»",
+    "illustrator": "Sohee Kim"
+}

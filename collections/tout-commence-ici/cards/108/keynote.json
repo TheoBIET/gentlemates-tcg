@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Keynote",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Renvoyez tous vos Joueurs dans la main de leur propriétaire."
+        }
+    ],
+    "resilience": "Ajoutez une carte Joueur de votre défausse à votre main.",
+    "quote": "Le live va bientôt commencer...",
+    "illustrator": "Pema Horeau"
+}

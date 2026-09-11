@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Monster",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "rare",
+    "stars": 3,
+    "defense": 70,
+    "attacks": [
+        {
+            "name": "Hyper-Vitesse",
+            "cost": {
+                "neutral": 1
+            },
+            "damage": 100
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Vous pouvez engager 2 Essence pour piocher 2 cartes."
+    },
+    "quote": "How should I feel ?",
+    "illustrator": "Tan Zhi Hui"
+}

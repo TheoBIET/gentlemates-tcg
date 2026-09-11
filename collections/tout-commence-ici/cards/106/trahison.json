@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Trahison++",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "trigger",
+            "text": "Lorsque votre adversaire déclare un défenseur sur l'attaque de ce Joueur, vous pouvez bench cet Objet pour désengager ce Joueur et annuler l'attaque. Ce Joueur ne peut plus attaquer jusqu'à la fin du tour."
+        }
+    ],
+    "resilience": "Un Joueur adverse ne peut plus attaquer jusqu'à la fin du tour.",
+    "quote": "À jamais l'écharpe de la victoire.",
+    "illustrator": "Romain Billaud"
+}

@@ -1,0 +1,26 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Pétrodollars",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "common",
+    "stars": 1,
+    "defense": 140,
+    "attacks": [
+        {
+            "name": "Vol",
+            "cost": {
+                "neutral": 3
+            },
+            "damage": 90,
+            "text": "Regardez les 5 cartes du dessus de votre Club et liez jusqu'à 1 Objet parmi ces cartes à un autre de vos Joueurs."
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Liez 2 Objets de votre défausse à un autre de vos Joueurs."
+    },
+    "quote": "Il y a des offres qu'on ne peut pas refuser !",
+    "illustrator": "Umeshu Lovers"
+}

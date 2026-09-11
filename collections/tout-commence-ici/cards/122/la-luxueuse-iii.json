@@ -1,0 +1,19 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "La Luxueuse III",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "legendary",
+    "effects": [
+        {
+            "text": "Ce Joueur a +10 Défense pour chaque Objet Lié à lui."
+        },
+        {
+            "icon": "trigger",
+            "text": "Lorsque le CEO adverse attaque cette ligne, mélangez une carte de votre défausse dans votre club et piochez 1 carte."
+        }
+    ],
+    "quote": "Si Gentle Mates n'a plus aucun fan c'est que je suis mort",
+    "illustrator": "Dexter Maurer"
+}

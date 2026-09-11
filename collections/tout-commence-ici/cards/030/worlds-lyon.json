@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Worlds Lyon",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "orange",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Vos Joueurs liés ne s'engagent pas lors de leur première attaque ce tour."
+        }
+    ],
+    "resilience": "Un de vos Joueurs gagne Shield jusqu'à la fin du tour.",
+    "quote": "La seule équipe française qui gagne devant son public",
+    "illustrator": "Paiheme"
+}

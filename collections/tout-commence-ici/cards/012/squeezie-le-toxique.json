@@ -1,0 +1,26 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Squeezie le Toxique",
+    "type": "player",
+    "essence": "pink",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 110,
+    "attacks": [
+        {
+            "name": "Trash-talk",
+            "cost": {
+                "pink": 1,
+                "neutral": 1
+            },
+            "damage": 110
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Engagez un Joueur adverse."
+    },
+    "quote": "Prout.",
+    "illustrator": "Manon Tsukui & HL"
+}

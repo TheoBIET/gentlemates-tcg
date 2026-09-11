@@ -1,0 +1,26 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Calma",
+    "type": "player",
+    "essence": "green",
+    "rarity": "rare",
+    "stars": 3,
+    "defense": 160,
+    "attacks": [
+        {
+            "name": "Sh*t On",
+            "cost": {
+                "green": 2,
+                "neutral": 2
+            },
+            "damage": 180
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Le Joueur adverse sur la même ligne ne peut pas défendre une attaque de ce Joueur ce tour."
+    },
+    "quote": "!@/$#%!!",
+    "illustrator": "Sylvain Repos"
+}

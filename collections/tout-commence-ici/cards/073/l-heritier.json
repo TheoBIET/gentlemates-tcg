@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "L'Héritier",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "common",
+    "stars": 1,
+    "defense": 110,
+    "attacks": [
+        {
+            "name": "Ascension",
+            "cost": {
+                "neutral": 2
+            },
+            "damage": 120
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "trigger",
+        "text": "Lorsque le CEO adverse Lie un Objet à un Joueur, ce Joueur a +20 Défense jusqu'à la fin du tour."
+    },
+    "quote": "Sérieux, il est pas trop mignon ?",
+    "illustrator": "Manon Tsukui"
+}

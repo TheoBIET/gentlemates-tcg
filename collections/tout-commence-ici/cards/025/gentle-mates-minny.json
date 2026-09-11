@@ -1,0 +1,20 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Gentle Mates Minny",
+    "type": "player",
+    "essence": "pink",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 120,
+    "attacks": [
+        {
+            "name": "Locked In",
+            "cost": {
+                "pink": 2
+            },
+            "damage": 130
+        }
+    ],
+    "quote": "Patrik a pris du ferme",
+    "illustrator": "Levinky"
+}

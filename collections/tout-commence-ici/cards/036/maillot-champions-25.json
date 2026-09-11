@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Maillot Champions '25",
+    "type": "object",
+    "subtype": "link",
+    "essence": "orange",
+    "rarity": "rare",
+    "effects": [
+        {
+            "text": "Ce Joueur gagne Riposte."
+        }
+    ],
+    "resilience": "Un de vos Joueurs gagne Riposte jusqu'à la fin du tour.",
+    "quote": "On ne perd pas devant notre public.",
+    "illustrator": "Romain Billaud"
+}

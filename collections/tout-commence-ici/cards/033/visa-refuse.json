@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Visa Refusé",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "orange",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Ciblez un Joueur adverse sans Objet. Il ne peut pas déclencher d'Attaque jusqu'à la fin du tour de l'adversaire."
+        }
+    ],
+    "resilience": "Ajoutez une carte Objet de votre défausse à votre main.",
+    "quote": "C'était leur seule façon d'arrêter nos M16",
+    "illustrator": "Romain Billaud"
+}

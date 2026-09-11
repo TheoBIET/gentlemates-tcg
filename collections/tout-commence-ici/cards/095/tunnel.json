@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Tunnel",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Si vous avez un Joueur seul sur sa ligne, piochez 2 cartes."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Je demandais juste comment ça va",
+    "illustrator": "Alex Accorsi"
+}
