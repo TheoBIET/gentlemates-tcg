@@ -8,8 +8,8 @@ For every collection, checks that:
     - each card folder in cards/ is named with 3 digits within the set total and
       holds exactly <number>.avif and one <slug>.json, or nothing yet (missing card)
     - <slug>.json matches schemas/card.json and is named after the slug of the card name
-    - card slugs are unique across all collections
 
+Cards sharing a name share a slug, e.g. cards/047 and cards/048 hold champions-du-major.json.
 .DS_Store files are ignored. Exits with code 1 on any error.
 """
 
@@ -29,6 +29,8 @@ IGNORED_NAMES = {".DS_Store"}
 
 
 def slugify(name: str) -> str:
+    # NFKD leaves ligatures whole, so spell them out before dropping non-ASCII: Œil -> oeil.
+    name = name.translate(str.maketrans({"œ": "oe", "Œ": "OE", "æ": "ae", "Æ": "AE"}))
     ascii_name = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii")
     return re.sub(r"[^a-z0-9]+", "-", ascii_name.lower()).strip("-")
 
@@ -58,22 +60,14 @@ def validate_json(path: Path, validator: Draft202012Validator, schema_name: str)
     return data, errors
 
 
-def check_card(path: Path, card: dict, slugs: dict[str, Path]) -> list[str]:
-    errors = []
-
+def check_card(path: Path, card: dict) -> list[str]:
     name = card.get("name")
     if isinstance(name, str) and path.stem != slugify(name):
-        errors.append(f"file must be named {slugify(name)}.json after the card name {name!r}")
-
-    if path.stem in slugs:
-        errors.append(f"slug {path.stem!r} already used by {slugs[path.stem].relative_to(ROOT)}")
-    slugs.setdefault(path.stem, path)
-    return errors
+        return [f"file must be named {slugify(name)}.json after the card name {name!r}"]
+    return []
 
 
-def check_card_folder(
-    folder: Path, total: int | None, validator: Draft202012Validator, slugs: dict[str, Path]
-) -> dict[Path, list[str]]:
+def check_card_folder(folder: Path, total: int | None, validator: Draft202012Validator) -> dict[Path, list[str]]:
     files = sorted(p for p in folder.iterdir() if p.name not in IGNORED_NAMES)
     if not files:
         return {}
@@ -98,7 +92,7 @@ def check_card_folder(
     for path in cards:
         card, card_errors = validate_json(path, validator, "card.json")
         if card is not None:
-            card_errors += check_card(path, card, slugs)
+            card_errors += check_card(path, card)
         results[path] = card_errors
     return results
 
@@ -118,7 +112,6 @@ def main() -> int:
         return 1
 
     results: dict[Path, list[str]] = {}
-    slugs: dict[str, Path] = {}
     for collection in collections:
         set_path = collection / "set.json"
         total = None
@@ -134,7 +127,7 @@ def main() -> int:
             results[cards_dir] = ["missing cards/ folder"]
             continue
         for folder in sorted(p for p in cards_dir.iterdir() if p.is_dir()):
-            results.update(check_card_folder(folder, total, validators["card.json"], slugs))
+            results.update(check_card_folder(folder, total, validators["card.json"]))
 
     failed = 0
     for path, errors in results.items():

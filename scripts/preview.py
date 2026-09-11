@@ -25,6 +25,7 @@ RARITIES = {
     "epic": "#8a6bf1",
     "legendary": "#f0d567",
     "promo": "#cc664a",
+    "essence": "#c8c8cc",
 }
 ESSENCES = {
     "pink": "#ea528f",
@@ -74,11 +75,14 @@ def render_card(card: dict, collection: dict) -> tuple[str, str]:
         badge(f"{card['essence'].capitalize()} essence", "essence", ESSENCES.get(card["essence"], "#a1a1a8")),
     ]
     number = f"{card['number']:03}"
+    # Cards sharing a name share an id, so anchors use the collection and number.
+    anchor = f"{collection['id']}-{number}"
     source = f"collections/{collection['id']}/cards/{number}/{card['id']}.json"
     name = html.escape(card["name"])
+    quote = f"<em>“{html.escape(card['quote'])}”</em>" if "quote" in card else ""
 
     section = f"""
-<section class="card" id="{card['id']}">
+<section class="card" id="{anchor}">
   <img class="art" src="{html.escape(card['image'])}" alt="{name}" loading="lazy">
   <div class="side">
     <div class="panel">
@@ -87,7 +91,7 @@ def render_card(card: dict, collection: dict) -> tuple[str, str]:
         <div class="name">{name}</div>
         <div class="sub">{html.escape(collection['name'])} · <span class="chip">{number}/{collection['total']}</span></div>
       </div>
-      <div class="flavor"><em>“{html.escape(card['quote'])}”</em><small>Illus. {html.escape(card['illustrator'])}</small></div>
+      <div class="flavor">{quote}<small>Illus. {html.escape(card['illustrator'])}</small></div>
       <div class="label">
         <code><a href="{source}">{source}</a></code>
         <span class="actions">
@@ -102,7 +106,7 @@ def render_card(card: dict, collection: dict) -> tuple[str, str]:
 
     search = normalize(" ".join([number, card["id"], card["name"], card["illustrator"], rarity, *types, card["essence"]]))
     result = (
-        f'<li data-search="{html.escape(search)}"><a href="#{card["id"]}">'
+        f'<li data-search="{html.escape(search)}"><a href="#{anchor}">'
         f'<span class="chip">{number}</span><span class="result-name">{name}</span>{badges[0]}</a></li>'
     )
     return section, result
