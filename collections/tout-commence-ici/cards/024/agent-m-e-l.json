@@ -1,0 +1,24 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Agent M.E.L",
+    "type": "player",
+    "essence": "pink",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 120,
+    "attacks": [
+        {
+            "name": "Coup de fil",
+            "cost": {
+                "pink": 2
+            },
+            "damage": 100
+        }
+    ],
+    "ability": {
+        "keyword": "buff",
+        "text": "Vos autres Joueurs ont +20 Attaque."
+    },
+    "quote": "Allo ? Besoin d'une Houssein en urgence",
+    "illustrator": "Levinky"
+}

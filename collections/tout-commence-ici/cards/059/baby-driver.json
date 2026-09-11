@@ -1,0 +1,24 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Baby Driver",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 40,
+    "attacks": [
+        {
+            "name": "Vroom Vroom",
+            "cost": {
+                "mauve": 1
+            },
+            "damage": 40
+        }
+    ],
+    "ability": {
+        "keyword": "shield",
+        "text": "Tant qu'il est en jeu, ce Joueur ignore la première attaque qu'il subit."
+    },
+    "quote": "Papa, tonton Itachi a dit des gros mots",
+    "illustrator": "Jor Ros"
+}

@@ -1,0 +1,27 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Vanyabubu",
+    "type": "player",
+    "essence": "orange",
+    "rarity": "rare",
+    "stars": 3,
+    "defense": 90,
+    "attacks": [
+        {
+            "name": "Baby Shark",
+            "cost": {
+                "orange": 1
+            },
+            "damage": 60,
+            "bonus": true,
+            "text": "+10 pour chaque Objet Lié à ce Joueur."
+        }
+    ],
+    "ability": {
+        "keyword": "counterattack",
+        "icon": "trigger",
+        "text": "Lorsqu'il est vaincu, vous pouvez déclencher une des attaques de ce Joueur pour un coût diminué de 1, en ciblant le Joueur attaquant."
+    },
+    "quote": "Il gère la comptabilité du club entre 2 cups",
+    "illustrator": "Umeshu Lovers"
+}

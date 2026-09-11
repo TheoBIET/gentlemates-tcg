@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Champions du Monde",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "orange",
+    "rarity": "legendary",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Un de vos Joueurs gagne Riposte et Shield jusqu'à la fin du tour adverse."
+        }
+    ],
+    "quote": "J'ai voulu faire Top 1",
+    "illustrator": "Dexter Maurer"
+}

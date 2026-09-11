@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "BLBLBLBL",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "violet",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Echangez la position de 2 de vos Joueurs."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "BLBLBLBLBLBLBLBLBLBLBLBL",
+    "illustrator": "Xianhui Wang"
+}

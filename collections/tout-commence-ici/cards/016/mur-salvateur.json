@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Mur Salvateur",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Un de vos Joueurs a +10 Défense et gagne Garde jusqu'à la fin du tour adverse."
+        }
+    ],
+    "resilience": "Un de vos Joueurs gagne Garde jusqu'à la fin du tour.",
+    "quote": "Ils ne passeront pas.",
+    "illustrator": "Edward Chee"
+}

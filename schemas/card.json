@@ -1,0 +1,138 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "card.json",
+    "title": "Card",
+    "description": "Card data (collections/<set>/cards/<number>/<slug>.json), in the order it reads on the card. Text is in French, as printed.",
+    "type": "object",
+    "required": ["type"],
+    "properties": {
+        "type": {
+            "description": "player (Joueur), moment (Moment), or object (Objet).",
+            "enum": ["player", "moment", "object"]
+        }
+    },
+    "allOf": [
+        {
+            "if": { "properties": { "type": { "const": "player" } } },
+            "then": { "$ref": "#/$defs/player" }
+        },
+        {
+            "if": { "properties": { "type": { "const": "moment" } } },
+            "then": { "$ref": "#/$defs/effectCard", "properties": { "subtype": { "enum": ["instant"] } } }
+        },
+        {
+            "if": { "properties": { "type": { "const": "object" } } },
+            "then": { "$ref": "#/$defs/effectCard", "properties": { "subtype": { "enum": ["link"] } } }
+        }
+    ],
+    "$defs": {
+        "player": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "type", "essence", "rarity", "stars", "defense", "attacks", "quote", "illustrator"],
+            "properties": {
+                "$schema": { "type": "string" },
+                "name": { "$ref": "#/$defs/text" },
+                "type": { "const": "player" },
+                "essence": { "$ref": "#/$defs/essence" },
+                "rarity": { "$ref": "#/$defs/rarity" },
+                "stars": { "type": "integer", "minimum": 1, "maximum": 10 },
+                "defense": { "type": "integer", "minimum": 0 },
+                "attacks": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/attack" } },
+                "ability": { "$ref": "#/$defs/ability" },
+                "quote": { "$ref": "#/$defs/text" },
+                "illustrator": { "$ref": "#/$defs/illustrator" }
+            }
+        },
+        "effectCard": {
+            "description": "A moment or an object.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "type", "subtype", "essence", "rarity", "effects", "quote", "illustrator"],
+            "properties": {
+                "$schema": { "type": "string" },
+                "name": { "$ref": "#/$defs/text" },
+                "type": { "enum": ["moment", "object"] },
+                "subtype": {
+                    "description": "instant (Instant) for a moment, link (Lien) for an object.",
+                    "enum": ["instant", "link"]
+                },
+                "essence": { "$ref": "#/$defs/essence" },
+                "rarity": { "$ref": "#/$defs/rarity" },
+                "effects": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/effect" } },
+                "resilience": { "description": "Text of the Résilience box.", "$ref": "#/$defs/text" },
+                "quote": { "$ref": "#/$defs/text" },
+                "illustrator": { "$ref": "#/$defs/illustrator" }
+            }
+        },
+        "attack": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "cost", "damage"],
+            "properties": {
+                "name": { "$ref": "#/$defs/text" },
+                "cost": {
+                    "description": "Number of essences of each kind, e.g. { \"pink\": 1, \"neutral\": 1 }.",
+                    "type": "object",
+                    "minProperties": 1,
+                    "propertyNames": { "$ref": "#/$defs/essence" },
+                    "additionalProperties": { "type": "integer", "minimum": 1 }
+                },
+                "damage": { "type": "integer", "minimum": 0 },
+                "bonus": { "description": "true when the damage is printed with a +, e.g. 60+.", "type": "boolean" },
+                "text": { "description": "Text printed under the attack.", "$ref": "#/$defs/text" }
+            }
+        },
+        "ability": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["keyword", "text"],
+            "properties": {
+                "keyword": {
+                    "description": "Printed label: buff (Buff), counterattack (Riposte), shield (Shield), signature (Signature), taunt (Provocation).",
+                    "enum": ["buff", "counterattack", "shield", "signature", "taunt"]
+                },
+                "icon": { "$ref": "#/$defs/icon" },
+                "text": { "$ref": "#/$defs/text" }
+            }
+        },
+        "effect": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["text"],
+            "properties": {
+                "icon": { "$ref": "#/$defs/icon" },
+                "text": { "$ref": "#/$defs/text" }
+            }
+        },
+        "icon": {
+            "description": "Icon printed before the text: star or trigger. Omitted when there is none.",
+            "enum": ["star", "trigger"]
+        },
+        "essence": {
+            "description": "pink (Rose), orange (Orange), jade (Jade), violet (Violette), yellow (Jaune), mauve (Mauve), green (Verte), blue (Bleue), azure (Azur), or neutral (Neutre).",
+            "enum": ["pink", "orange", "jade", "violet", "yellow", "mauve", "green", "blue", "azure", "neutral"]
+        },
+        "rarity": {
+            "description": "Printed rarity letter: common (C), uncommon (PC), rare (R), epic (E), legendary (L), promo (P).",
+            "enum": ["common", "uncommon", "rare", "epic", "legendary", "promo"]
+        },
+        "illustrator": {
+            "description": "As printed after \"Illus :\". Add new names here.",
+            "enum": [
+                "Dexter Maurer",
+                "Edward Chee",
+                "Grace Woo",
+                "Jor Ros",
+                "Justice Wong",
+                "Levinky",
+                "Nicolas Dehghani",
+                "Paiheme",
+                "Rexpo",
+                "Umeshu Lovers",
+                "Xianhui Wang"
+            ]
+        },
+        "text": { "type": "string", "minLength": 1 }
+    }
+}

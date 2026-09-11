@@ -1,0 +1,26 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "La Relève",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "legendary",
+    "stars": 10,
+    "defense": 120,
+    "attacks": [
+        {
+            "name": "Sang Froid",
+            "cost": {
+                "mauve": 1,
+                "neutral": 1
+            },
+            "damage": 140
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Bench jusqu'à un Baby Driver que vous controlez et piochez 3 cartes."
+    },
+    "quote": "Le prochain CachéDansLeBuisson, c'est toi !",
+    "illustrator": "Levinky"
+}

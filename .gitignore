@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+.venv/
+
+# macOS
+.DS_Store
+
+# Built by scripts/generate.py and scripts/preview.py
+/data/
+/data.zip

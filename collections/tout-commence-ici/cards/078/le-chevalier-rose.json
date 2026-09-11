@@ -1,0 +1,27 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Le Chevalier Rose",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 80,
+    "attacks": [
+        {
+            "name": "Estafilade",
+            "cost": {
+                "neutral": 1
+            },
+            "damage": 90
+        },
+        {
+            "name": "Serment",
+            "cost": {
+                "neutral": 2
+            },
+            "damage": 120
+        }
+    ],
+    "quote": "La Garde Rose meurt mais ne se rend pas !",
+    "illustrator": "Justice Wong"
+}

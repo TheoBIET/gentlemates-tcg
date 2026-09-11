@@ -1,0 +1,24 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Gotaga Circus",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "legendary",
+    "stars": 10,
+    "defense": 110,
+    "attacks": [
+        {
+            "name": "Contre-Pitre",
+            "cost": {
+                "neutral": 1
+            },
+            "damage": 10
+        }
+    ],
+    "ability": {
+        "keyword": "taunt",
+        "text": "L'attaquant face à ce Joueur doit le cibler."
+    },
+    "quote": "Tu crois qu'on joue alors qu'on travaille",
+    "illustrator": "Nicolas Dehghani"
+}

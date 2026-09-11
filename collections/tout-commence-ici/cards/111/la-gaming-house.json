@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "La Gaming House",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "La deuxième attaque que vous déclenchez à ce tour, coûte 2 Essences non neutre de moins."
+        }
+    ],
+    "resilience": "Vos Joueurs ont +10 Défense jusqu'à la fin du tour.",
+    "quote": "Merci de bien retirer vos chaussures",
+    "illustrator": "Paiheme"
+}

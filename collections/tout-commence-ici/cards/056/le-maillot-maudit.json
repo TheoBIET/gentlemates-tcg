@@ -1,0 +1,20 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Le Maillot Maudit",
+    "type": "object",
+    "subtype": "link",
+    "essence": "mauve",
+    "rarity": "rare",
+    "effects": [
+        {
+            "text": "Ce Joueur a -10 Attaque."
+        },
+        {
+            "icon": "trigger",
+            "text": "Lorsque ce Joueur vainc un Joueur , vous pouvez bench cet Objet pour bench un Joueur adverse engagé."
+        }
+    ],
+    "resilience": "Bench tous vos Joueurs pour mettre fin à la phase de Combat.",
+    "quote": "J'en ai jamais entendu parler",
+    "illustrator": "Umeshu Lovers"
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "set.json",
+    "title": "Set",
+    "description": "Set data (collections/<set>/set.json).",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["name", "total"],
+    "properties": {
+        "$schema": {
+            "type": "string"
+        },
+        "name": {
+            "description": "Set name, as printed.",
+            "type": "string",
+            "minLength": 1
+        },
+        "total": {
+            "description": "Number of cards in the set, e.g. 122 for 016/122.",
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 999
+        }
+    }
+}

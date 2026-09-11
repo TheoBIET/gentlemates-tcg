@@ -1,0 +1,28 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Marteen Supreme",
+    "type": "player",
+    "essence": "pink",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 120,
+    "attacks": [
+        {
+            "name": "Clutch",
+            "cost": {
+                "pink": 1,
+                "neutral": 1
+            },
+            "damage": 126
+        },
+        {
+            "name": "World Record",
+            "cost": {
+                "pink": 3
+            },
+            "damage": 180
+        }
+    ],
+    "quote": "Flex, flex, man I'm flexin'",
+    "illustrator": "Rexpo"
+}
