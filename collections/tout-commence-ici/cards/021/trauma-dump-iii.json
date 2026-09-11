@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Trauma Dump III",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Renvoyez tous les Objet Liés à un Joueur dans la main de son propriétaire."
+        }
+    ],
+    "resilience": "Renvoyez 1 Objet dans la main de son propriétaire.",
+    "quote": "...",
+    "illustrator": "Umeshu Lovers"
+}

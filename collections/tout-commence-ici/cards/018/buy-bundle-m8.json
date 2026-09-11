@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Buy Bundle M8 !!",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Renvoyez 1 Joueur adverse sans Provocation dans la main de son propriétaire."
+        }
+    ],
+    "resilience": "Engagez un Joueur adverse avec Provocation.",
+    "quote": "Tout achat d'un bundle augmente votre KDA de 25% en jeu.",
+    "illustrator": "Edward Chee"
+}

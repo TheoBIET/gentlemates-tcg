@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Moi je suis coach",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "orange",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Révélez les 6 cartes du dessus de votre Club et ajoutez toutes les cartes Objet révélées à votre main. Défaussez les cartes restantes."
+        }
+    ],
+    "resilience": "La prochaine Riposte déclenchée a un coût diminué de 1 ce tour.",
+    "quote": "Sis thinks she's on the team",
+    "illustrator": "Acrassan"
+}

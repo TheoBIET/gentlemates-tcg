@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "M8 Résilience",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 130,
+    "attacks": [
+        {
+            "name": "Avenir Radieux",
+            "cost": {
+                "neutral": 2
+            },
+            "damage": 120
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "trigger",
+        "text": "Lorsque le CEO adverse attaque cette ligne, piochez 1 carte."
+    },
+    "quote": "L'espoir est le dernier à mourir.",
+    "illustrator": "Aftergani"
+}

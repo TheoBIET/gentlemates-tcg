@@ -1,0 +1,27 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Moroccan Monsters",
+    "type": "player",
+    "essence": "violet",
+    "rarity": "rare",
+    "stars": 3,
+    "defense": 140,
+    "attacks": [
+        {
+            "name": "Pinch",
+            "cost": {
+                "violet": 2,
+                "neutral": 1
+            },
+            "damage": 80,
+            "text": "Désengagez un autre de vos Joueurs."
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Piochez une carte si vous avez plus de 2 PV."
+    },
+    "quote": "Deux frères, un fauve.",
+    "illustrator": "Rexpo"
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Meet & Greeter",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 100,
+    "attacks": [
+        {
+            "name": "Permutation",
+            "cost": {
+                "neutral": 2
+            },
+            "damage": 100
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "trigger",
+        "text": "Lorsque vous défendez avec ce Joueur, vous pouvez le renvoyer dans votre Club pour jouer un autre Joueur engagé à sa place en tant que défenseur."
+    },
+    "quote": "J'y fus pas",
+    "illustrator": "Jor Ros"
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "99% Faith",
+    "type": "player",
+    "essence": "blue",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 120,
+    "attacks": [
+        {
+            "name": "Tout à gagner",
+            "cost": {
+                "blue": 1,
+                "neutral": 1
+            },
+            "damage": 120
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "text": "Si 1% chance est déployé, ce Joueur gagne Provocation et Shield."
+    },
+    "quote": "... alors ils l'ont fait",
+    "illustrator": "Dexter Maurer"
+}

@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Essence Mauve",
+    "type": "essence",
+    "essence": "mauve",
+    "rarity": "essence",
+    "effects": [
+        {
+            "text": "Vous pouvez engager cette Essence pour déclencher vos attaques Mauves."
+        }
+    ],
+    "illustrator": "Florent Hauchard & HL"
+}

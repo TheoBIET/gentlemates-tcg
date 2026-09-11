@@ -1,0 +1,24 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "SLAY",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "rare",
+    "stars": 3,
+    "defense": 120,
+    "attacks": [
+        {
+            "name": "Choc D'Août",
+            "cost": {
+                "neutral": 2
+            },
+            "damage": 120
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "text": "Si ce Joueur est désengagé, l'attaquant face à lui doit le cibler."
+    },
+    "quote": "Pour avoir du style en toutes Situations.",
+    "illustrator": "Romain Billaud"
+}

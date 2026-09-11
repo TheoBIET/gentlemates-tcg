@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Barakataga",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Les CEO piochent jusqu'à avoir 4 cartes en main."
+        }
+    ],
+    "resilience": "Piochez 2 cartes.",
+    "quote": "Encore un jackpot comme par hasard...",
+    "illustrator": "Edward Chee"
+}

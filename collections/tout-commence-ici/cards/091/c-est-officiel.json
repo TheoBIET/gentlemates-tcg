@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "C'est officiel !",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Votre adversaire choisit entre les deux effets suivants : - Piochez 3 cartes et votre adversaire pioche 2 cartes. - Votre adversaire défausse 2 cartes et vous défaussez 1 carte."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Evidemment, personne ne le savait...",
+    "illustrator": "Zéphyr"
+}

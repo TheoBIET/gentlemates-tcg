@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Tweet la Défaite",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "La première fois que votre adversaire récupère un PV ce tour, les Joueurs adverses ont -20 Défense."
+        }
+    ],
+    "resilience": "Un Joueur adverse a -20 Attaque.",
+    "quote": "Plus rapide que la notif.",
+    "illustrator": "Umeshu Lovers"
+}

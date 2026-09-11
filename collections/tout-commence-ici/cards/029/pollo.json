@@ -1,0 +1,27 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Pollo",
+    "type": "player",
+    "essence": "orange",
+    "rarity": "common",
+    "stars": 1,
+    "defense": 120,
+    "attacks": [
+        {
+            "name": "Demon's Domain",
+            "cost": {
+                "orange": 2
+            },
+            "damage": 80,
+            "bonus": true,
+            "text": "+ 20 pour chaque Objet Lié à ce Joueur"
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "trigger",
+        "text": "Lorsque vous liez un ou plusieurs Objet à ce Joueur, vous pouvez placer un Objet de votre défausse sur votre Club."
+    },
+    "quote": "C'est quoi ce poulet ?",
+    "illustrator": "Umeshu Lovers"
+}

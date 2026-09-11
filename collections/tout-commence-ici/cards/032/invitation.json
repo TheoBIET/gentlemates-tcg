@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Invitation",
+    "type": "object",
+    "subtype": "link",
+    "essence": "orange",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "trigger",
+            "text": "Lorsque ce Joueur est vaincu, bench cet Objet à la place de ce Joueur."
+        }
+    ],
+    "resilience": "Jouer une carte Objet.",
+    "quote": "(Sources) Gentle Mates have reached an agreement with you.",
+    "illustrator": "Hugo Lucas"
+}

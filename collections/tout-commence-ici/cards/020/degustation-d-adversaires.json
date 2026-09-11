@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Dégustation d'adversaires",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Un Joueur adverse a -30 Defense et votre Joueur sur la même ligne a +30 Attaque jusqu'à la fin du tour."
+        }
+    ],
+    "resilience": "Un de vos Joueurs gagne Buff +20 Defense jusqu'à la fin du tour.",
+    "quote": "On va se régaler potooo",
+    "illustrator": "Justice Wong"
+}

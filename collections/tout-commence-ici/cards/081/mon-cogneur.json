@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Mon Cogneur",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 170,
+    "attacks": [
+        {
+            "name": "Hexa-Punch",
+            "cost": {
+                "neutral": 4
+            },
+            "damage": 190
+        }
+    ],
+    "ability": {
+        "keyword": "counterattack",
+        "icon": "trigger",
+        "text": "Lorsqu'il est vaincu, vous pouvez déclencher une des attaques de ce Joueur pour un coût diminué de 1, en ciblant le Joueur attaquant."
+    },
+    "quote": "Ses manchettes lui permettent d'atteindre 88 clics par seconde",
+    "illustrator": "Sylvain Repos"
+}

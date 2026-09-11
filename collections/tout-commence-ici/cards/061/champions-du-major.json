@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Champions du Major",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "mauve",
+    "rarity": "epic",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Mélangez 3 de vos Essences Mauves dans votre Réserve pour bench un Joueur adverse."
+        }
+    ],
+    "quote": "Un trophée pareil nous était destiné",
+    "illustrator": "Grace Woo"
+}

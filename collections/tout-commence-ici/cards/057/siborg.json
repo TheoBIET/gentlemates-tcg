@@ -1,0 +1,28 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Siborg",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 160,
+    "attacks": [
+        {
+            "name": "AimBot.exe",
+            "cost": {
+                "neutral": 2
+            },
+            "damage": 90
+        },
+        {
+            "name": "Titanic",
+            "cost": {
+                "mauve": 1,
+                "neutral": 2
+            },
+            "damage": 140
+        }
+    ],
+    "quote": "Programmé pour gagner",
+    "illustrator": "Hugo Lucas"
+}

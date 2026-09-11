@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Essence Jade",
+    "type": "essence",
+    "essence": "jade",
+    "rarity": "essence",
+    "effects": [
+        {
+            "text": "Vous pouvez engager cette Essence pour déclencher vos attaques Jade."
+        }
+    ],
+    "illustrator": "Florent Hauchard & HL"
+}

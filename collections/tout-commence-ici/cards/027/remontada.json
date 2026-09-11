@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Remontada",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "epic",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Si vous avez moins de PV que votre adversaire, vos Joueurs ont +20 Attaque jusqu'à la fin du tour."
+        }
+    ],
+    "quote": "J'ai un très mauvais pressentiment",
+    "illustrator": "Levinky"
+}

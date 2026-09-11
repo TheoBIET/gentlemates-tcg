@@ -1,0 +1,30 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "The French Sorcerer",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "legendary",
+    "stars": 10,
+    "defense": 180,
+    "attacks": [
+        {
+            "name": "Foudre de Rage",
+            "cost": {
+                "mauve": 2,
+                "neutral": 1
+            },
+            "text": "Bench un Joueur adverse. Mélangez 1 de vos Essences Mauves dans votre Réserve."
+        },
+        {
+            "name": "Éclairs Vengeurs",
+            "cost": {
+                "mauve": 2,
+                "neutral": 2
+            },
+            "damage": 200,
+            "text": "Mélangez 2 de vos Essences Mauves dans votre Réserve."
+        }
+    ],
+    "quote": "... qu'on nous appelle les PARIS GENTLE MATES",
+    "illustrator": "Syd Mills"
+}

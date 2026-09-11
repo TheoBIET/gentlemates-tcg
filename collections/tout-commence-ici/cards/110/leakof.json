@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Leakof",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Regardez les 5 cartes du dessus du Club adverse."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Ok donc pour le merch on laisse plutôt Brawks leaker.",
+    "illustrator": "Jor Ros"
+}

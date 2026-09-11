@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Reverse Squeeze",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "violet",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Regardez vos PV et choisissez une carte. Echangez-la avec une carte de votre main."
+        }
+    ],
+    "resilience": "Défaussez votre premier PV pour placer 1 carte de votre main sur vos PV.",
+    "quote": "Call an ambulance… but not for me.",
+    "illustrator": "Sébastien Iglesias"
+}

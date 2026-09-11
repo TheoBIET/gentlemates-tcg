@@ -1,0 +1,20 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "M4",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "text": "Ce Joueur a +15 Attaque."
+        },
+        {
+            "icon": "trigger",
+            "text": "Lorsque vous déclenchez une attaque avec ce Joueur, vous pouvez défausser jusqu'à 3 cartes pour avoir +10 Attaque pour chaque carte défaussée."
+        }
+    ],
+    "resilience": "Défaussez une carte et piochez une carte. Si la carte défaussée est une carte Joueur, un Joueur adverse a -30 Attaque.",
+    "quote": "Les temps difficiles créent des supporters forts.",
+    "illustrator": "Alex Accorsi"
+}

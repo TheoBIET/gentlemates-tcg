@@ -1,0 +1,26 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Pas Compris",
+    "type": "player",
+    "essence": "pink",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 70,
+    "attacks": [
+        {
+            "name": "Confusion",
+            "cost": {
+                "pink": 1
+            },
+            "damage": 60,
+            "bonus": true,
+            "text": "+10 par Joueur engagé."
+        }
+    ],
+    "ability": {
+        "keyword": "taunt",
+        "text": "L'attaquant face à ce Joueur doit le cibler."
+    },
+    "quote": "Toujours pas compris",
+    "illustrator": "Grace Woo"
+}

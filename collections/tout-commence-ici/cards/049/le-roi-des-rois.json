@@ -1,0 +1,27 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Le Roi des rois",
+    "type": "player",
+    "essence": "yellow",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 100,
+    "attacks": [
+        {
+            "name": "Dictature",
+            "cost": {
+                "neutral": 1
+            },
+            "damage": 50,
+            "bonus": true,
+            "text": "+ 20 par essence Jaune controlée."
+        }
+    ],
+    "ability": {
+        "keyword": "legion",
+        "icon": "trigger",
+        "text": "Lorsqu'il est vaincu, vous pouvez défausser une carte pour récuperer ce Joueur dans votre main."
+    },
+    "quote": "Pas besoin d'armure, un marcel suffira",
+    "illustrator": "Than Zhi Hui"
+}

@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Maillot Champions '24",
+    "type": "object",
+    "subtype": "link",
+    "essence": "violet",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "trigger",
+            "text": "Lorsque vous vainquez un Joueur, désengagez une de vos Essences."
+        }
+    ],
+    "resilience": "Désengagez 1 de vos Joueurs.",
+    "quote": "Il y a un nouveau shérif en ville",
+    "illustrator": "Alex Accorsi"
+}

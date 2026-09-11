@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Ralliement",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "common",
+    "stars": 1,
+    "defense": 100,
+    "attacks": [
+        {
+            "name": "Déploiement",
+            "cost": {
+                "neutral": 2
+            },
+            "damage": 10,
+            "text": "Révélez les 5 cartes du dessus de votre Club et ajoutez une carte Joueur parmi les cartes révélées à votre main. Défaussez les cartes restantes."
+        }
+    ],
+    "ability": {
+        "keyword": "buff",
+        "text": "Vos Joueurs alliés gagnent +10 Défense."
+    },
+    "quote": "GENTLE ?!",
+    "illustrator": "Edward Chee"
+}
