@@ -1,0 +1,20 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Ravitaillement",
+    "type": "object",
+    "subtype": "link",
+    "essence": "pink",
+    "rarity": "common",
+    "effects": [
+        {
+            "text": "Ce Joueur a +10 Attaque et +10 Défense."
+        },
+        {
+            "icon": "trigger",
+            "text": "Lorsque ce Joueur est engagé, vous pouvez bench cet Objet pour piocher 1 carte."
+        }
+    ],
+    "resilience": "Engagez 2 de vos Joueurs pour engager un Joueur adverse.",
+    "quote": "Classique sur classique.",
+    "illustrator": "Justice Wong"
+}

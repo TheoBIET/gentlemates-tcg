@@ -7,8 +7,8 @@
     "required": ["type"],
     "properties": {
         "type": {
-            "description": "player (Joueur), moment (Moment), or object (Objet).",
-            "enum": ["player", "moment", "object"]
+            "description": "player (Joueur), moment (Moment), object (Objet), coach (Coach), or essence (Essence).",
+            "enum": ["player", "moment", "object", "coach", "essence"]
         }
     },
     "allOf": [
@@ -23,6 +23,14 @@
         {
             "if": { "properties": { "type": { "const": "object" } } },
             "then": { "$ref": "#/$defs/effectCard", "properties": { "subtype": { "enum": ["link"] } } }
+        },
+        {
+            "if": { "properties": { "type": { "const": "coach" } } },
+            "then": { "$ref": "#/$defs/effectCard", "properties": { "subtype": { "enum": ["instant"] } } }
+        },
+        {
+            "if": { "properties": { "type": { "const": "essence" } } },
+            "then": { "$ref": "#/$defs/essenceCard" }
         }
     ],
     "$defs": {
@@ -45,16 +53,16 @@
             }
         },
         "effectCard": {
-            "description": "A moment or an object.",
+            "description": "A moment, an object, or a coach.",
             "type": "object",
             "additionalProperties": false,
             "required": ["name", "type", "subtype", "essence", "rarity", "effects", "quote", "illustrator"],
             "properties": {
                 "$schema": { "type": "string" },
                 "name": { "$ref": "#/$defs/text" },
-                "type": { "enum": ["moment", "object"] },
+                "type": { "enum": ["moment", "object", "coach"] },
                 "subtype": {
-                    "description": "instant (Instant) for a moment, link (Lien) for an object.",
+                    "description": "instant (Instant) for a moment or a coach, link (Lien) for an object.",
                     "enum": ["instant", "link"]
                 },
                 "essence": { "$ref": "#/$defs/essence" },
@@ -65,10 +73,25 @@
                 "illustrator": { "$ref": "#/$defs/illustrator" }
             }
         },
+        "essenceCard": {
+            "description": "An Essence card, printed without a quote.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "type", "essence", "rarity", "effects", "illustrator"],
+            "properties": {
+                "$schema": { "type": "string" },
+                "name": { "$ref": "#/$defs/text" },
+                "type": { "const": "essence" },
+                "essence": { "$ref": "#/$defs/essence" },
+                "rarity": { "const": "essence" },
+                "effects": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/effect" } },
+                "illustrator": { "$ref": "#/$defs/illustrator" }
+            }
+        },
         "attack": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["name", "cost", "damage"],
+            "required": ["name", "cost"],
             "properties": {
                 "name": { "$ref": "#/$defs/text" },
                 "cost": {
@@ -78,7 +101,7 @@
                     "propertyNames": { "$ref": "#/$defs/essence" },
                     "additionalProperties": { "type": "integer", "minimum": 1 }
                 },
-                "damage": { "type": "integer", "minimum": 0 },
+                "damage": { "description": "Omitted when no damage is printed, e.g. an attack with only a text.", "type": "integer", "minimum": 0 },
                 "bonus": { "description": "true when the damage is printed with a +, e.g. 60+.", "type": "boolean" },
                 "text": { "description": "Text printed under the attack.", "$ref": "#/$defs/text" }
             }
@@ -89,8 +112,8 @@
             "required": ["keyword", "text"],
             "properties": {
                 "keyword": {
-                    "description": "Printed label: buff (Buff), counterattack (Riposte), shield (Shield), signature (Signature), taunt (Provocation).",
-                    "enum": ["buff", "counterattack", "shield", "signature", "taunt"]
+                    "description": "Printed label: buff (Buff), counterattack (Riposte), guard (Garde), legion (Légion), shield (Shield), signature (Signature), taunt (Provocation).",
+                    "enum": ["buff", "counterattack", "guard", "legion", "shield", "signature", "taunt"]
                 },
                 "icon": { "$ref": "#/$defs/icon" },
                 "text": { "$ref": "#/$defs/text" }
@@ -114,23 +137,49 @@
             "enum": ["pink", "orange", "jade", "violet", "yellow", "mauve", "green", "blue", "azure", "neutral"]
         },
         "rarity": {
-            "description": "Printed rarity letter: common (C), uncommon (PC), rare (R), epic (E), legendary (L), promo (P).",
-            "enum": ["common", "uncommon", "rare", "epic", "legendary", "promo"]
+            "description": "Printed rarity letter: common (C), uncommon (PC), rare (R), epic (E), legendary (L), promo (P), essence (ES).",
+            "enum": ["common", "uncommon", "rare", "epic", "legendary", "promo", "essence"]
         },
         "illustrator": {
-            "description": "As printed after \"Illus :\". Add new names here.",
+            "description": "As printed after \"Illus :\", misprints included (Than Zhi Hui on 049). Add new names here.",
             "enum": [
+                "Acrassan",
+                "Aftergani",
+                "Alex Accorsi",
+                "Benoit Barraqué",
                 "Dexter Maurer",
                 "Edward Chee",
+                "Elsa Clidi & Laura Vuillerme",
+                "Florent Hauchard & HL",
+                "Gadner Raph",
+                "Gobli Prin",
                 "Grace Woo",
+                "Hugo Lucas",
                 "Jor Ros",
                 "Justice Wong",
+                "Justice Wong & HL",
                 "Levinky",
+                "Liu Qian",
+                "Manon Tsukui",
+                "Manon Tsukui & HL",
+                "Mélanie Baptista",
                 "Nicolas Dehghani",
                 "Paiheme",
+                "Pema Horeau",
                 "Rexpo",
+                "Romain Billaud",
+                "Sébastien Iglesias",
+                "Sohee Kim",
+                "Stwensz",
+                "Syd Mills",
+                "Sylvain Repos",
+                "Tan Zhi Hui",
+                "Than Zhi Hui",
                 "Umeshu Lovers",
-                "Xianhui Wang"
+                "Umeshu Lovers & Edward Chee",
+                "Valonia",
+                "Xianhui Wang",
+                "Zéphyr"
             ]
         },
         "text": { "type": "string", "minLength": 1 }

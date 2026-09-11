@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Zzzzzzz",
+    "type": "player",
+    "essence": "violet",
+    "rarity": "rare",
+    "stars": 3,
+    "defense": 70,
+    "attacks": [
+        {
+            "name": "Rêverie",
+            "cost": {
+                "violet": 1
+            },
+            "text": "Regardez les 4 cartes du dessus de votre Club et placez-les au-dessus ou en dessous de votre Club dans l'ordre de votre choix."
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Regardez vos PV et choisissez une carte. Echangez-la avec une carte de votre main."
+    },
+    "quote": "Réveillez-vous my CEO ! Il est déjà 15H du matin !",
+    "illustrator": "Jor Ros"
+}

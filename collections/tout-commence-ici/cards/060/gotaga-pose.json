@@ -1,0 +1,28 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Gotaga Pose",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 150,
+    "attacks": [
+        {
+            "name": "Aspiration d'âme",
+            "cost": {
+                "mauve": 3,
+                "neutral": 1
+            },
+            "damage": 150,
+            "bonus": true,
+            "text": "+100 si l'adversaire a récuperé un PV ce tour."
+        }
+    ],
+    "ability": {
+        "keyword": "legion",
+        "icon": "trigger",
+        "text": "Lorsqu'il est vaincu, vous pouvez défausser une carte pour récuperer ce Joueur dans votre main."
+    },
+    "quote": "Souriez My CEO, vous êtes filmé",
+    "illustrator": "Nicolas Dehghani"
+}

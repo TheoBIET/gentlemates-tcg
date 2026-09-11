@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Le Marionnettiste",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "legendary",
+    "stars": 10,
+    "defense": 140,
+    "attacks": [
+        {
+            "name": "Coup de fil",
+            "cost": {
+                "neutral": 3
+            },
+            "damage": 160
+        }
+    ],
+    "ability": {
+        "keyword": "counterattack",
+        "icon": "trigger",
+        "text": "Lorsqu'il est vaincu, vous pouvez déclencher une des attaques de ce Joueur pour un coût diminué de 1, en ciblant le Joueur attaquant."
+    },
+    "quote": "Merci, Ô grand Squeezie, pour ta générosité",
+    "illustrator": "Gobli Prin"
+}

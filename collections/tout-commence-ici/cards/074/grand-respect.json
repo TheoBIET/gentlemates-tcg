@@ -1,0 +1,24 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Grand Respect",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "common",
+    "stars": 1,
+    "defense": 130,
+    "attacks": [
+        {
+            "name": "Déboutonnage",
+            "cost": {
+                "neutral": 3
+            },
+            "damage": 150
+        }
+    ],
+    "ability": {
+        "keyword": "guard",
+        "text": "Ce Joueur peut défendre n'importe quelle attaque."
+    },
+    "quote": "Ah c'est un peu chiant les gars...",
+    "illustrator": "Aftergani"
+}

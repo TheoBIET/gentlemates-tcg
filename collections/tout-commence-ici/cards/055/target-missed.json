@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Target Missed",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "mauve",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Si le premier Joueur qui attaque l'adversaire à ce tour ne vainc aucun Joueur, il gagne Provocation jusqu'à la fin du tour de l'adversaire."
+        }
+    ],
+    "resilience": "Bench un Joueur adverse engagé sans Provocation.",
+    "quote": "On a vu de belles choses",
+    "illustrator": "Valonia"
+}

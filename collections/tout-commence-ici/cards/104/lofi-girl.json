@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Lofi Girl",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Désengagez un de vos Joueurs."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Enfin diplômée !",
+    "illustrator": "Elsa Clidi & Laura Vuillerme"
+}

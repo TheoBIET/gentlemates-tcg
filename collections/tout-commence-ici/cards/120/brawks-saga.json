@@ -1,0 +1,24 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Brawks Saga",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "legendary",
+    "stars": 10,
+    "defense": 150,
+    "attacks": [
+        {
+            "name": "Mâchouille",
+            "cost": {
+                "neutral": 2
+            },
+            "damage": 120
+        }
+    ],
+    "ability": {
+        "keyword": "guard",
+        "text": "Ce Joueur peut défendre n'importe quelle attaque."
+    },
+    "quote": "Je n'ai aucun adversaire.",
+    "illustrator": "Jor Ros"
+}

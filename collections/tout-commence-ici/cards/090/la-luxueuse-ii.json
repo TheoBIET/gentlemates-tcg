@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "La Luxueuse II",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "trigger",
+            "text": "Lorsque l'adversaire attaque cette ligne, mélangez une carte de votre défausse dans votre Club et piochez 1 carte."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Ceintre disponible seulement dans le TCG Gentle Mates",
+    "illustrator": "Manon Tsukui"
+}

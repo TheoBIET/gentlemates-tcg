@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Mercato",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Piochez 3 cartes."
+        }
+    ],
+    "resilience": "Regardez les 5 cartes du dessus de votre Club et ajoutez une carte Joueur à votre main. Remettez les autres cartes en dessous de votre Club dans l'ordre de votre choix.",
+    "quote": "L'échange est équivalent, mais à notre avantage quand même.",
+    "illustrator": "Justice Wong"
+}

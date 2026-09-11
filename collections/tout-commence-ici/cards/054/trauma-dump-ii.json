@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Trauma Dump II",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "mauve",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Mélangez 1 Essence Mauve dans votre Réserve, vos Joueurs déployés ont +20 sur leurs attaques jusqu'à la fin du tour."
+        }
+    ],
+    "resilience": "Jouez la première carte de votre Réserve.",
+    "quote": "...",
+    "illustrator": "Umeshu Lovers"
+}

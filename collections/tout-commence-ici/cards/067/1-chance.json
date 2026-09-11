@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "1% Chance",
+    "type": "player",
+    "essence": "blue",
+    "rarity": "epic",
+    "stars": 5,
+    "defense": 60,
+    "attacks": [
+        {
+            "name": "Rien à perdre",
+            "cost": {
+                "blue": 1
+            },
+            "damage": 60
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Ajoutez jusqu'à un 99% faith depuis votre club à votre main."
+    },
+    "quote": "Ils ne savaient pas que c'était impossible...",
+    "illustrator": "Dexter Maurer"
+}

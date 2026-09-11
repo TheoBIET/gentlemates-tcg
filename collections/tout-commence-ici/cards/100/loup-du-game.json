@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Loup du Game",
+    "type": "player",
+    "essence": "neutral",
+    "rarity": "rare",
+    "stars": 3,
+    "defense": 130,
+    "attacks": [
+        {
+            "name": "Doig BYE BYE BYE",
+            "cost": {
+                "neutral": 3
+            },
+            "damage": 160
+        }
+    ],
+    "ability": {
+        "keyword": "legion",
+        "icon": "trigger",
+        "text": "Lorsqu'il est vaincu, vous pouvez défausser une carte pour récupérer ce Joueur dans votre main."
+    },
+    "quote": "Tu es capable de réaliser tes rêves",
+    "illustrator": "Manon Tsukui"
+}

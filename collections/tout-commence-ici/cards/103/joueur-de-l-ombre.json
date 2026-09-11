@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Joueur de L'Ombre",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Déclenchez l'effet d'entrée d'un Joueur de votre défausse."
+        }
+    ],
+    "resilience": "Défaussez votre main et piochez autant de cartes que le nombre de cartes défaussées.",
+    "quote": "Merci à vous",
+    "illustrator": "Aftergani"
+}

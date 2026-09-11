@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Champions du Major",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "violet",
+    "rarity": "epic",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Jusqu'à la fin du tour, chaque fois que vous désengagez un Joueur, désengagez une Essence Violette."
+        }
+    ],
+    "quote": "Veni, Vidi, Vici.",
+    "illustrator": "Aftergani"
+}

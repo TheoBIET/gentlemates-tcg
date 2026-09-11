@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Méta Cœurs",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Mélangez 6 cartes Joueur de votre défausse à votre Club."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Toujours kaiwaiiné, toujours cute",
+    "illustrator": "Paiheme"
+}

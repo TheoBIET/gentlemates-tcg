@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Versus Fighting",
+    "type": "player",
+    "essence": "azure",
+    "rarity": "rare",
+    "stars": 3,
+    "defense": 90,
+    "attacks": [
+        {
+            "name": "→↓↘ + 👊",
+            "cost": {
+                "azure": 2
+            },
+            "damage": 90,
+            "text": "A la fin de l'attaque, ajoutez ce Joueur à votre main et vous pouvez jouer un autre Joueur depuis votre main à la place."
+        }
+    ],
+    "ability": {
+        "keyword": "guard",
+        "text": "Ce Joueur peut défendre n'importe quelle attaque."
+    },
+    "quote": "C'est pas de l'esport, c'est la FGC.",
+    "illustrator": "Umeshu Lovers"
+}

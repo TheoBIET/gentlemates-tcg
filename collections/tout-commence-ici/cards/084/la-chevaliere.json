@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "La Chevalière",
+    "type": "object",
+    "subtype": "link",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "trigger",
+            "text": "Lorsque vous déclenchez une attaque, vous pouvez bench cet Objet pour qu'elle coûte 2 Essence Neutre."
+        }
+    ],
+    "resilience": "Les prochaines attaques de votre adversaire coûtent une Essence Neutre de plus.",
+    "quote": "La vraie bague de mariage de Gotaga",
+    "illustrator": "Hugo Lucas"
+}

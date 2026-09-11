@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Gotaga Dance",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "legendary",
+    "stars": 10,
+    "defense": 90,
+    "attacks": [
+        {
+            "name": "Cancel Slide",
+            "cost": {
+                "mauve": 2
+            },
+            "damage": 150
+        }
+    ],
+    "ability": {
+        "keyword": "legion",
+        "icon": "trigger",
+        "text": "Lorsqu'il est vaincu, vous pouvez défausser une carte pour récupérer ce Joueur dans votre main."
+    },
+    "quote": "OH OH OH BACHATA",
+    "illustrator": "Tan Zhi Hui"
+}

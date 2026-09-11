@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Clim",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Bench un Objet adverse."
+        }
+    ],
+    "resilience": "Un Joueur adverse sans Objet ne peut plus attaquer jusqu'à la fin du tour.",
+    "quote": "Si seulement j'avais une belle polaire à mettre...",
+    "illustrator": "Edward Chee"
+}

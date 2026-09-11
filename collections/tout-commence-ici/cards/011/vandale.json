@@ -1,0 +1,28 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Vandale",
+    "type": "player",
+    "essence": "pink",
+    "rarity": "common",
+    "stars": 1,
+    "defense": 90,
+    "attacks": [
+        {
+            "name": "S-Privilège",
+            "cost": {
+                "pink": 1
+            },
+            "damage": 90
+        },
+        {
+            "name": "Glissade",
+            "cost": {
+                "pink": 2,
+                "neutral": 1
+            },
+            "text": "Engagez un Joueur adverse."
+        }
+    ],
+    "quote": "Un titre de Vice-Champion de plus !",
+    "illustrator": "Liu Qian"
+}

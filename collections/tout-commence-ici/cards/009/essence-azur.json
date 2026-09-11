@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Essence Azur",
+    "type": "essence",
+    "essence": "azure",
+    "rarity": "essence",
+    "effects": [
+        {
+            "text": "Vous pouvez engager cette Essence pour déclencher vos attaques Azur."
+        }
+    ],
+    "illustrator": "Florent Hauchard & HL"
+}

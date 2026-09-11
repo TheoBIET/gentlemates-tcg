@@ -1,0 +1,26 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "La Planète",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 110,
+    "attacks": [
+        {
+            "name": "Télépathie",
+            "cost": {
+                "mauve": 1,
+                "neutral": 1
+            },
+            "damage": 120
+        }
+    ],
+    "ability": {
+        "keyword": "legion",
+        "icon": "trigger",
+        "text": "Lorsqu'il est vaincu, vous pouvez défausser une carte pour récupérer ce Joueur dans votre main."
+    },
+    "quote": "Lorsqu'un CEO s'endort, La Planète se réveille.",
+    "illustrator": "Tan Zhi Hui"
+}

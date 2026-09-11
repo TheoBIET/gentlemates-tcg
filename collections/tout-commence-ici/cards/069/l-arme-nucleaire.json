@@ -1,0 +1,28 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "L'Arme Nucléaire",
+    "type": "player",
+    "essence": "azure",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 130,
+    "attacks": [
+        {
+            "name": "WaWar",
+            "cost": {
+                "azure": 1,
+                "neutral": 2
+            },
+            "damage": 90,
+            "bonus": true,
+            "text": "+20 pour chaque carte que vous avez en main."
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "trigger",
+        "text": "Lorsque votre adversaire est touché, si ce Joueur est votre seul Joueur déployé, il défausse le PV sans le regarder."
+    },
+    "quote": "Paint the Town Pink",
+    "illustrator": "Levinky"
+}

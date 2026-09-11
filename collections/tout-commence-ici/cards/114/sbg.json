@@ -1,0 +1,16 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "SBG",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "legendary",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Piochez 1 carte pour chaque Joueur adverse engagé."
+        }
+    ],
+    "quote": "Ça veut dire «Squeezie, Brawks et Gotaga» en gros",
+    "illustrator": "Aftergani"
+}

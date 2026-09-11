@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "OCE/PCE",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Votre adversaire choisit entre les deux effets suivants : - Piochez 2 cartes. - Votre adversaire défausse 2 cartes."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "C'est ma direction !",
+    "illustrator": "Sébastien Iglesias"
+}

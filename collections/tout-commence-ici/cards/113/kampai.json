@@ -1,0 +1,26 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Kampaï",
+    "type": "player",
+    "essence": "pink",
+    "rarity": "legendary",
+    "stars": 10,
+    "defense": 150,
+    "attacks": [
+        {
+            "name": "Coup d'jus",
+            "cost": {
+                "pink": 2,
+                "neutral": 1
+            },
+            "damage": 150
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Si vous avez 3 Joueurs Roses renvoyez un Joueur adverse dans sa main."
+    },
+    "quote": "俺たちが世界一のFPS構造を創り上げてやる！",
+    "illustrator": "Jor Ros"
+}

@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Leakof",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "common",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Regardez la Main de votre adversaire."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "«Nikof t'as pas les co**lles»",
+    "illustrator": "Umeshu Lovers"
+}

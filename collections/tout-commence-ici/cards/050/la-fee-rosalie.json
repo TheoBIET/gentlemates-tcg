@@ -1,0 +1,25 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "La Fée Rosalie",
+    "type": "player",
+    "essence": "mauve",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 140,
+    "attacks": [
+        {
+            "name": "Soutien Constant",
+            "cost": {
+                "mauve": 3
+            },
+            "damage": 150
+        }
+    ],
+    "ability": {
+        "keyword": "signature",
+        "icon": "star",
+        "text": "Bench un Joueur adverse engagé sans Provocation."
+    },
+    "quote": "Je veux que M8 gagne, j'y crois, j'y crois.",
+    "illustrator": "Levinky"
+}

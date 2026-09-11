@@ -1,0 +1,20 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Ravitaillement",
+    "type": "object",
+    "subtype": "link",
+    "essence": "mauve",
+    "rarity": "common",
+    "effects": [
+        {
+            "text": "Ce Joueur a +10 Attaque et +10 Défense."
+        },
+        {
+            "icon": "trigger",
+            "text": "Lorsque ce Joueur vainc un Joueur, vous pouvez détruire cet Objet pour piocher 2 cartes."
+        }
+    ],
+    "resilience": "Bench un Objet adverse.",
+    "quote": "Je ne vous parle même pas du prochain...",
+    "illustrator": "Justice Wong"
+}

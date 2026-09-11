@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Zacking Buff",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "pink",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Vos Joueurs ont +30 Attaque jusqu'à la fin du tour."
+        }
+    ],
+    "resilience": "Défaussez votre main pour engager un Joueur adverse.",
+    "quote": "On n'a pas le droit de le décevoir !",
+    "illustrator": "Hugo Lucas"
+}

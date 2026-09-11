@@ -1,0 +1,26 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Les Rois du Saloon",
+    "type": "player",
+    "essence": "violet",
+    "rarity": "uncommon",
+    "stars": 2,
+    "defense": 70,
+    "attacks": [
+        {
+            "name": "Hold-Up",
+            "cost": {
+                "violet": 1
+            },
+            "damage": 60,
+            "bonus": true,
+            "text": "+10 pour chaque PV que vous avez."
+        }
+    ],
+    "ability": {
+        "keyword": "taunt",
+        "text": "L'attaquant face à ce Joueur doit le cibler."
+    },
+    "quote": "Qui a peint mon cheval en rose ?",
+    "illustrator": "Paiheme"
+}

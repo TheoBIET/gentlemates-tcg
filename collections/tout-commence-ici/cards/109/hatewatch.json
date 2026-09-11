@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Hatewatch",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Bench un de vos Joueurs et votre adversaire défausse une carte."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Oh non, trop deg pour vous...",
+    "illustrator": "Benoit Barraqué"
+}

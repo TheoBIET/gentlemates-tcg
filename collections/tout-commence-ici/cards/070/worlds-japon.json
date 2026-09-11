@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Worlds Japon",
+    "type": "coach",
+    "subtype": "instant",
+    "essence": "azure",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "A la fin de votre première attaque, ajoutez en main le Joueur attaquant et jouez un autre Joueur depuis votre main à la même place."
+        }
+    ],
+    "resilience": "Jouez 2 Joueurs. A la fin de la phase de Combat, bench-les.",
+    "quote": "1. Haneda. 2. Perdre 350€ aux gacha 3. Podium à l'EVO.",
+    "illustrator": "Paiheme"
+}

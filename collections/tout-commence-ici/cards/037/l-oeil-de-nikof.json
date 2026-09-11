@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "L'Œil de Nikof",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "orange",
+    "rarity": "rare",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Regardez les 4 cartes du dessus de votre Club et ajoutez une carte Objet à votre main. Placez les cartes restantes au-dessus de votre Club dans l'ordre de votre choix."
+        }
+    ],
+    "resilience": "Mélangez jusqu'à 2 cartes Objet de votre défausse à votre Club.",
+    "quote": "Il a les yeux Double Pompe Chasseur, il a le regard qui tue.",
+    "illustrator": "Justice Wong & HL"
+}

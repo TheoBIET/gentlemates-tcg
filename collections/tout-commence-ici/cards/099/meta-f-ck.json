@@ -1,0 +1,17 @@
+{
+    "$schema": "../../../../schemas/card.json",
+    "name": "Méta F*ck",
+    "type": "moment",
+    "subtype": "instant",
+    "essence": "neutral",
+    "rarity": "uncommon",
+    "effects": [
+        {
+            "icon": "star",
+            "text": "Révélez les 6 cartes du dessus de votre Club et ajoutez une carte Moment parmi les cartes révélées à votre main. Défaussez les cartes restantes."
+        }
+    ],
+    "resilience": "Jouez cette carte.",
+    "quote": "Y'a plus de kawaiiné",
+    "illustrator": "Aftergani"
+}
